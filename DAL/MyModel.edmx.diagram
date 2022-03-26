@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="50d7258659644518bcc00e815b85589d" Name="Diagram1">
+        <EntityTypeShape EntityType="EshopMVCAdvance_DBModel.Role" Width="2.625" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EshopMVCAdvance_DBModel.User" Width="1.5" PointX="4.125" PointY="5.5" />
+        <AssociationConnector Association="EshopMVCAdvance_DBModel.FK_User_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
